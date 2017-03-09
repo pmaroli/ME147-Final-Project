@@ -11,11 +11,29 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Classes" Type="Folder">
+			<Item Name="Ammeter (Parent)" Type="Folder">
+				<Item Name="Ammeter Emulator (Child)" Type="Folder">
+					<Item Name="Ammeter Emulator.lvclass" Type="LVClass" URL="../Classes/Ammeter/Ammeter Emulator/Ammeter Emulator.lvclass"/>
+				</Item>
+				<Item Name="Ammeter.lvclass" Type="LVClass" URL="../Classes/Ammeter/Ammeter.lvclass"/>
+			</Item>
 			<Item Name="ESC (Parent)" Type="Folder">
 				<Item Name="Dectrum12A (Child)" Type="Folder">
 					<Item Name="Dectrum12A.lvclass" Type="LVClass" URL="../Classes/ESC/Detrum12A/Dectrum12A.lvclass"/>
 				</Item>
+				<Item Name="ESC Emulator (Child)" Type="Folder">
+					<Item Name="ESC Emulator.lvclass" Type="LVClass" URL="../Classes/ESC/ESC Emulator/ESC Emulator.lvclass"/>
+				</Item>
 				<Item Name="ESC.lvclass" Type="LVClass" URL="../Classes/ESC/ESC.lvclass"/>
+			</Item>
+			<Item Name="Scale (Parent)" Type="Folder">
+				<Item Name="OHAUS AV8101" Type="Folder">
+					<Item Name="OHAUS AV8101.lvclass" Type="LVClass" URL="../Classes/Scale/OHAUS AV8101/OHAUS AV8101.lvclass"/>
+				</Item>
+				<Item Name="Scale Emulator (Child)" Type="Folder">
+					<Item Name="Scale Emulator.lvclass" Type="LVClass" URL="../Classes/Scale/Scale Emulator/Scale Emulator.lvclass"/>
+				</Item>
+				<Item Name="Scale.lvclass" Type="LVClass" URL="../Classes/Scale/Scale.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Top Level" Type="Folder">
@@ -28,7 +46,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="Convert DDT to 1DDbl.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/Convert DDT to 1DDbl.vi"/>
 				<Item Name="Convert DDT to 1DWfm.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/Convert DDT to 1DWfm.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
