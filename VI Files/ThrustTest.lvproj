@@ -43,10 +43,6 @@
 				<Item Name="Scale.lvclass" Type="LVClass" URL="../../Classes/Scale/Scale.lvclass"/>
 			</Item>
 		</Item>
-		<Item Name="Top Level" Type="Folder">
-			<Item Name="StateMachineControl.ctl" Type="VI" URL="../StateMachineControl.ctl"/>
-			<Item Name="ThrustTest_StateMachine.vi" Type="VI" URL="../../ThrustTest_StateMachine.vi"/>
-		</Item>
 		<Item Name="Drivers" Type="Folder">
 			<Item Name="OHAUS AV8101 Drivers" Type="Folder">
 				<Item Name="OHAUS AV8101 Drivers" Type="Folder" URL="../../OHAUS AV8101 Drivers">
@@ -54,8 +50,12 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Calibrate_ESC.vi" Type="VI" URL="../Calibrate_ESC.vi"/>
-		<Item Name="DataSimulation.vi" Type="VI" URL="../DataSimulation.vi"/>
+		<Item Name="VIs" Type="Folder">
+			<Item Name="Calibrate_ESC.vi" Type="VI" URL="../Calibrate_ESC.vi"/>
+			<Item Name="DataSimulation.vi" Type="VI" URL="../DataSimulation.vi"/>
+			<Item Name="StateMachineControl.ctl" Type="VI" URL="../StateMachineControl.ctl"/>
+		</Item>
+		<Item Name="ThrustTest.vi" Type="VI" URL="../../ThrustTest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -355,6 +355,7 @@
 				<Item Name="ex_ExcelAllConfig.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_ExcelAllConfig.ctl"/>
 				<Item Name="ex_subExcelFileWrite.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_subExcelFileWrite.vi"/>
 				<Item Name="ex_FileFormats.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ExFile.llb/ex_FileFormats.ctl"/>
+				<Item Name="SetT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Set DDT Attributes/SetT0.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
